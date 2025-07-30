@@ -3,6 +3,27 @@ fn test_func1() {
     assert_eq!(2 + 2, 4);
 }
 #[test]
+fn test_func18() {
+    let s1 = String::from("I am a superman.");
+    let s2 = s1;
+    //println!("{s1}");
+    println!("{s2}");
+}
+#[test]
+fn test_func17() {
+    let s1 = String::from("I am a superman.");
+    let s2 = s1.clone();
+    println!("{s1}");
+    println!("{s2}");
+}
+#[test]
+fn test_func16() {
+    let a = 10u32;
+    let b = a;
+    println!("{a}");
+    println!("{b}");
+}
+#[test]
 fn test_func15() {
     let mut x = 5;
     println!("The value of x is: {x}");
