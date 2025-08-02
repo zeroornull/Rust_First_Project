@@ -12,6 +12,9 @@ mod chapter11;
 mod chapter12;
 mod chapter13;
 mod chapter14;
+mod chapter15;
+mod chapter16;
+mod chapter19;
 
 #[cfg(test)]
 mod integration_tests {

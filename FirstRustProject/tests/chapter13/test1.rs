@@ -60,7 +60,7 @@ async fn test_func4() {
 #[tokio::test]
 async fn test_func3() {
     async fn doit() -> std::io::Result<()> {
-        let mut file = File::open("foo.txt").await?;
+        let mut file = File::open("../../foo.txt").await?;
         let mut contents = vec![];
         //
         file.read_to_end(&mut contents).await.unwrap();
@@ -74,7 +74,7 @@ async fn test_func3() {
 #[tokio::test]
 async fn test_func2() {
     async fn doit() -> std::io::Result<()> {
-        let mut file = File::create("foo.txt").await?; // 创建文件
+        let mut file = File::create("../../foo.txt").await?; // 创建文件
         file.write_all(b"hello, world!").await?; // 写入内容
         Ok(())
     }
