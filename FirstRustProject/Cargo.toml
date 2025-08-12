@@ -4,4 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-tokio = { version = "1.47.0", features = ["full", "test-util"] }
+tokio = { version = "1.47.1", features = ["full", "test-util"] }
+num = "0.4.3"
+time = "0.3.41"
+utf8_slice = "1.0.0"

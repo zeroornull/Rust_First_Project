@@ -15,6 +15,10 @@ mod chapter14;
 mod chapter15;
 mod chapter16;
 mod chapter19;
+mod rust_course_basic_1;
+mod rust_course_basic_2;
+mod rust_course_basic_3;
+mod rust_course_basic_4;
 
 #[cfg(test)]
 mod integration_tests {

@@ -17,7 +17,7 @@ async fn main() {
     tracing_subscriber::fmt::init();
 
     let manager = PostgresConnectionManager::new_from_stringlike(
-        "host=88.151.33.6 port=30432 user=postgres dbname=postgres password='ckD75DKAB$VW#&%v!T'",
+        "host=127.0.0.1 port=30432 user=postgres dbname=postgres password='xxxxxx'",
         NoTls,
     )
     .unwrap();

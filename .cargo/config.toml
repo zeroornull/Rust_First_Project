@@ -1,7 +1,8 @@
 [build]
 target-dir="target"
 #rustflags = ["-Z", "threads=8"]
-rustflags = ["-C", "target-cpu=native", "-C", "opt-level=3", "-C", "codegen-units=1", "-C", "panic=abort"]
+#rustflags = ["-C", "target-cpu=native", "-C", "opt-level=3", "-C", "codegen-units=1", "-C", "panic=abort"]
+rustflags = ["-C", "target-cpu=native", "-C", "opt-level=3", "-C", "codegen-units=1",]
 
 [llvm]
 optimize = true
