@@ -24,6 +24,9 @@ mod rust_course_basic_6;
 mod rust_course_basic_7;
 mod rust_course_basic_8;
 mod rust_course_basic_9;
+mod rust_course_basic_10;
+mod rust_course_basic_11;
+mod rust_course_basic_12;
 
 #[cfg(test)]
 mod integration_tests {

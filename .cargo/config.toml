@@ -3,8 +3,21 @@ target-dir="target"
 #rustflags = ["-Z", "threads=8"]
 #rustflags = ["-C", "target-cpu=native", "-C", "opt-level=3", "-C", "codegen-units=1", "-C", "panic=abort"]
 rustflags = ["-C", "target-cpu=native", "-C", "opt-level=3", "-C", "codegen-units=1",]
+jobs = 16   # 根据CPU核心数设定（一般=物理/逻辑核心数）
+#rustc-wrapper = "sccache"   # 若已安装
+
+[target.x86_64-pc-windows-msvc]
+#linker = "clang-cl"
+rustflags = ["-C", "link-arg=-fuse-ld=lld"]
 
 [llvm]
 optimize = true
 thin-lto = true
 assertions = false
+
+[profile.dev]
+incremental = true
+opt-level = 0
+codegen-units = 256
+debug = 1
+
