@@ -1,2 +1,6 @@
 mod rust_course_advanced_01;
 mod rust_course_advanced_02;
+mod rust_course_advanced_03;
+mod rust_course_advanced_04;
+mod rust_course_advanced_05;
+mod rust_course_advanced_06;
