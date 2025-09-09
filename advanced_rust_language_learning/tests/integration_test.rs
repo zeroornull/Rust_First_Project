@@ -6,3 +6,6 @@ mod rust_course_advanced_05;
 mod rust_course_advanced_06;
 mod rust_course_advanced_07;
 mod rust_course_advanced_08;
+mod rust_course_advanced_09;
+mod rust_course_advanced_10;
+mod rust_course_advanced_11;

@@ -1,4 +1,4 @@
-// in main.rs
+// in hello
 use minigrep::Config;
 use std::error::Error;
 use std::{env, fs, process};
